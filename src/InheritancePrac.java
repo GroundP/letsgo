@@ -1,3 +1,5 @@
+import Polymorphism.Bouncer;
+
 class Parent{
     String name;
     void setName(String _name){
@@ -17,6 +19,7 @@ public class InheritancePrac extends Parent {
     InheritancePrac(int i){
         System.out.println("Constructor without param: " + i);
     }
+
     void sleep()
     {
         System.out.println("zzz");
@@ -30,6 +33,8 @@ public class InheritancePrac extends Parent {
 
 class Main{
     public static void main(String[] args) {
+        Bouncer b = new Bouncer();
+
         InheritancePrac child = new InheritancePrac();
         child.setName("SEOA");
         child.printName();
