@@ -1,4 +1,4 @@
-package Jungseok;
+package Jungsuk;
 
 public class ArrayPrac {
     // 16진수를 2진수로 변환

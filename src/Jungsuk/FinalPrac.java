@@ -1,4 +1,4 @@
-package Jungseok;
+package Jungsuk;
 
 public class FinalPrac {
     final int NUMBER;
