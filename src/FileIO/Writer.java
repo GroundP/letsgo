@@ -67,8 +67,8 @@ public class Writer {
     }
     public static void main(String[] args) {
         Writer w = new Writer();
-        //w.FileOutput();
+        w.FileOutput();
         //w.FileWriter();
-        w.PrintWriter();
+        //w.PrintWriter();
     }
 }

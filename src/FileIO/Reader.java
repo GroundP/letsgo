@@ -11,7 +11,8 @@ public class Reader {
             FileInputStream fi = new FileInputStream("C:/MTFX/test.txt");
             byte[] b = new byte[1024];
             fi.read(b);
-            System.out.println(new String(b));
+            String str = new String(b);
+            System.out.println(str);
             fi.close();
         }
         catch (Exception e){
@@ -38,7 +39,7 @@ public class Reader {
 
     public static void main(String[] args) {
         Reader r = new Reader();
-        //r.FileInput();
-        r.useBuffer();
+        r.FileInput();
+        //r.useBuffer();
     }
 }
